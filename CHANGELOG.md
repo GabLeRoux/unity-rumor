@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+* Stop OnClear messages from being sent when `Rumor` is started or stopped or
+  when a `jump` or `call` command is encountered
+
 
 ## [3.0.1] - 2018-11-06
 

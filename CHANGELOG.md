@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+* Added `GetVarNames` to `Scope` to allow iterating over all set variables in a
+  scope
+
 ### Changed
 * Stop OnClear messages from being sent when `Rumor` is started or stopped or
   when a `jump` or `call` command is encountered
